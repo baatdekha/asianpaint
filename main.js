@@ -165,7 +165,7 @@ function _sortShades(shades) {
 }
 
 function sendMail(name,code) {
-  var recipient = "padhanbenu96@gmail.com";
+  var recipient = "baatdekha@gmail.com";
   var subject = "Enquiry about Color Price";
   var body = `I want the following color.\nName - ${name} (${code}) color\nMy Mobile no. is - `;
 
