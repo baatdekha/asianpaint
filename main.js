@@ -32,6 +32,7 @@ fetch("shadelisting.shade.json").then(success => {
       // Sort the filtered colors by lightness
       sortShades(filteredByHue)
       displayResults(filteredByHue);
+      searchInput.blur()
     });
   });
 });
